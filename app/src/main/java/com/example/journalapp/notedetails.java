@@ -1,18 +1,17 @@
-package com.example.notesapptutorial;
+package com.example.journalapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.appcompat.widget.Toolbar;
 
+import com.example.journalapp.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.Random;

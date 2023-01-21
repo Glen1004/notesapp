@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.notesapptutorial">
+    package="com.example.journalapp">
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <application
@@ -10,18 +10,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NotesApptutorial">
-        <activity android:name=".notedetails"
+        <activity android:name="com.example.journalapp.notedetails"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
-        <activity android:name=".editnoteactivity"
+        <activity android:name="com.example.journalapp.editnoteactivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity
-            android:name=".createnote"
+            android:name="com.example.journalapp.createnote"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
-            android:parentActivityName=".notesactivity"/>
-        <activity android:name=".notesactivity" />
-        <activity android:name=".fogotpassword" />
-        <activity android:name=".signup" />
-        <activity android:name=".MainActivity">
+            android:parentActivityName="com.example.journalapp.notesactivity"/>
+        <activity android:name="com.example.journalapp.notesactivity" />
+        <activity android:name="com.example.journalapp.fogotpassword" />
+        <activity android:name="com.example.journalapp.signup" />
+        <activity android:name="com.example.journalapp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

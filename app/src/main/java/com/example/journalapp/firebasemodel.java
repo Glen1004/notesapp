@@ -1,4 +1,4 @@
-package com.example.notesapptutorial;
+package com.example.journalapp;
 
 public class firebasemodel {
 

@@ -1,33 +1,70 @@
 {
   "project_info": {
-    "project_number": "708987127075",
-    "project_id": "notesapptutorial",
-    "storage_bucket": "notesapptutorial.appspot.com"
+    "project_number": "600307097450",
+    "project_id": "journal-app-bdbf1",
+    "storage_bucket": "journal-app-bdbf1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:708987127075:android:571dbeb273af4f1310b896",
+        "mobilesdk_app_id": "1:600307097450:android:c1772a40aaf26f4a708f13",
         "android_client_info": {
-          "package_name": "com.example.notesapptutorial"
+          "package_name": "com.example.journalapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "708987127075-l4mprmgitjnftm0i1mep3ap9gb14haid.apps.googleusercontent.com",
+          "client_id": "600307097450-7p3f0hu6rnlf90soqpe6ruotufhe3gl7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.journalapp",
+            "certificate_hash": "60c3527892a9fee2cb80a5f80e65c16f2f0a4ac9"
+          }
+        },
+        {
+          "client_id": "600307097450-3dv32oofbj3is3g0kvke7u3v6fuj54lb.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDP0xZpbz8k1QjFu1UdqG2_cvJLH_Aen_0"
+          "current_key": "AIzaSyAABhNqi4rxQki56RRsUfRoIroFTGHAY3A"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "708987127075-l4mprmgitjnftm0i1mep3ap9gb14haid.apps.googleusercontent.com",
+              "client_id": "600307097450-3dv32oofbj3is3g0kvke7u3v6fuj54lb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600307097450:android:838a5b4ffe9ba50d708f13",
+        "android_client_info": {
+          "package_name": "com.example.notesapptutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600307097450-3dv32oofbj3is3g0kvke7u3v6fuj54lb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAABhNqi4rxQki56RRsUfRoIroFTGHAY3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600307097450-3dv32oofbj3is3g0kvke7u3v6fuj54lb.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

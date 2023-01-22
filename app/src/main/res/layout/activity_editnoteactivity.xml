@@ -51,6 +51,7 @@
         android:id="@+id/saveeditnote"
         android:src="@drawable/edit2"
         android:background="#7A00E6"
+        android:backgroundTint="#7A00E6"
         app:maxImageSize="40dp"
 
         >

@@ -15,6 +15,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_gravity="bottom|end"
+        android:backgroundTint="#7A00E6"
         android:src="@drawable/create"
         app:layout_constraintBottom_toBottomOf="@+id/recyclerview"
 

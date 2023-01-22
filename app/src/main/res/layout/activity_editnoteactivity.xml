@@ -49,8 +49,8 @@
         android:layout_marginRight="30dp"
         android:layout_gravity="bottom|end"
         android:id="@+id/saveeditnote"
-        android:src="@drawable/ic_baseline_arrow_circle_up_24"
-        android:background="#A1F4AB"
+        android:src="@drawable/edit2"
+        android:background="#7A00E6"
         app:maxImageSize="40dp"
 
         >

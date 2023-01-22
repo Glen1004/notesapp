@@ -9,7 +9,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.NotesApptutorial">
+        android:theme="@style/Theme.journalapp">
         <activity android:name="com.example.journalapp.notedetails"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
         <activity android:name="com.example.journalapp.editnoteactivity"

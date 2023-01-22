@@ -22,7 +22,7 @@ public class notedetails extends AppCompatActivity {
     private TextView mtitleofnotedetail,mcontentofnotedetail;
     FloatingActionButton mgotoeditnote;
 
-    ImageView imageView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,8 +35,7 @@ public class notedetails extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        imageView = findViewById(R.id.backGround);
-        imageView.setImageResource(getRandomImageBackground());
+
         Intent data=getIntent();
 
         mgotoeditnote.setOnClickListener(new View.OnClickListener() {
@@ -63,12 +62,5 @@ public class notedetails extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-    private int getRandomImageBackground() {
-        int[] imageViews = {};
-
-        Random random=new Random();
-        int number=random.nextInt(imageViews.length);
-        return imageViews[number];
     }
 }

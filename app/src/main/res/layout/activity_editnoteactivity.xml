@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:id="@+id/toolbarofeditnote"
-        android:background="@color/white">
+        android:background="#7A00E6">
 
 
         <EditText
@@ -20,7 +20,7 @@
             android:textSize="20sp"
             android:textStyle="bold"
             android:fontFamily="@font/poppins_medium"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:id="@+id/edittitleofnote" />
 
     </androidx.appcompat.widget.Toolbar>

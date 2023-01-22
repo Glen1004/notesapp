@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:id="@+id/toolbarofcreatenote"
-        android:background="@color/white">
+        android:background="#7A00E6">
 
 
         <EditText
@@ -21,7 +21,8 @@
             android:paddingTop="12dp"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:textColor="#383737"
+            android:textColorHint="#FFFFFF"
+            android:background="#7A00E6"
             android:fontFamily="@font/poppins_medium"
             android:hint="Create a Note"
             android:id="@+id/createtitleofnote" />

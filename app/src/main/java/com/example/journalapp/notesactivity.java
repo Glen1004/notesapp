@@ -369,17 +369,7 @@ public class notesactivity extends AppCompatActivity {
     private int getRandomColor()
     {
         List<Integer> colorcode=new ArrayList<>();
-        colorcode.add(R.color.gray);
-        colorcode.add(R.color.pink);
-        colorcode.add(R.color.lightgreen);
-        colorcode.add(R.color.skyblue);
-        colorcode.add(R.color.color1);
-        colorcode.add(R.color.color2);
-        colorcode.add(R.color.color3);
-
-        colorcode.add(R.color.color4);
-        colorcode.add(R.color.color5);
-        colorcode.add(R.color.green);
+        colorcode.add(R.color.color6);
 
         Random random=new Random();
         int number=random.nextInt(colorcode.size());

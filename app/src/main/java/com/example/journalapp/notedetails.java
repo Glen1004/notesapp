@@ -36,7 +36,6 @@ public class notedetails extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         imageView = findViewById(R.id.backGround);
-        imageView.setImageResource(getRandomImageBackground());
         Intent data=getIntent();
 
         mgotoeditnote.setOnClickListener(new View.OnClickListener() {
@@ -64,11 +63,5 @@ public class notedetails extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-    private int getRandomImageBackground() {
-        int[] imageViews = {R.drawable.img1, R.drawable.img2, R.drawable.img4, R.drawable.img5};
 
-        Random random=new Random();
-        int number=random.nextInt(imageViews.length);
-        return imageViews[number];
-    }
 }

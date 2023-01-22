@@ -112,6 +112,9 @@ public class notesactivity extends AppCompatActivity {
 
                 ImageView popupbutton=noteViewHolder.itemView.findViewById(R.id.menupopbutton);
 
+                int colourcode=getRandomColor();
+                noteViewHolder.mnote.setBackgroundColor(noteViewHolder.itemView.getResources().getColor(colourcode,null));
+
                 noteViewHolder.notetitle.setText(firebasemodel.getTitle());
                 noteViewHolder.notecontent.setText(firebasemodel.getContent());
 
@@ -360,6 +363,26 @@ public class notesactivity extends AppCompatActivity {
        {
            noteAdapter.stopListening();
        }
-    }}
+    }
 
 
+    private int getRandomColor()
+    {
+        List<Integer> colorcode=new ArrayList<>();
+        colorcode.add(R.color.gray);
+        colorcode.add(R.color.pink);
+        colorcode.add(R.color.lightgreen);
+        colorcode.add(R.color.skyblue);
+        colorcode.add(R.color.color1);
+        colorcode.add(R.color.color2);
+        colorcode.add(R.color.color3);
+
+        colorcode.add(R.color.color4);
+        colorcode.add(R.color.color5);
+        colorcode.add(R.color.green);
+
+        Random random=new Random();
+        int number=random.nextInt(colorcode.size());
+        return colorcode.get(number);
+    }
+}

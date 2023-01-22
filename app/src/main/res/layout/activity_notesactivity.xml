@@ -15,9 +15,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_gravity="bottom|end"
-        android:background="#070A0B"
-        android:src="@drawable/add"
-
+        android:background="#A1F4FB"
+        android:src="@drawable/ic_baseline_add_24"
         app:layout_constraintBottom_toBottomOf="@+id/recyclerview"
 
         app:layout_constraintEnd_toEndOf="@+id/recyclerview"

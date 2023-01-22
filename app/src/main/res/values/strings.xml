@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">NotesApptutorial</string>
+    <string name="app_name"> Notefy — keep yourself organized
+
+      </string>
+
+    android:fontFamily="@font/poppins_medium"
+
 </resources>

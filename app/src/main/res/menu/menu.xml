@@ -2,6 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/logout"
+        android:fontFamily="@font/poppins_bold"
+
         android:title="Logout">
 
     </item>
